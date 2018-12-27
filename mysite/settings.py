@@ -25,7 +25,7 @@ SECRET_KEY = 'lg0#-#6z__f1tv6e$#=d^#_v9ox&-at7abhd5hjt^f7u_sz&6v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanuwhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 # I added '127.0.0.1', '.pythonanuwhere.com' to be able to deploy the application
 
 
