@@ -1,0 +1,72 @@
+
+.page-header{
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', serif, italic;
+	font-style: normal;
+     text-shadow: 4px 4px 4px #aaa;
+    font-weight: 700;
+    font-size:70px;
+    color: #49494b; /*onyx*/
+    margin:0px;
+    padding: 0px;
+
+
+}
+ body{
+ 	padding:10px;
+	background-image: url("back1.jpg");
+	margin:0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.toolbar{
+	font-size: 12px;
+	font-family:'Lobster';
+
+}
+#date {
+	margin-top: 40px;
+
+     text-shadow: 4px 4px 4px #aaa;
+	color: #bd8c7d;
+	text-align: center;
+	/*font-family:"Playfair Display",serif;*/
+	font-family:'Roboto';
+	
+	font-style: normal;
+    /*font-weight: 700;*/
+    font-size:120px;
+
+
+
+}
+.post-block{
+	display: table;
+  margin-right: auto;
+  margin-left: auto;
+  width: 550px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+	/*width: 1100x;*/
+	padding: 20px;
+	background-color: white;
+	text-align: left;
+	/*font-family: "Playfair Display",serif;*/
+	font-family: "Lobster",serif;
+	
+	font-style: normal;
+	font-size: 20px;
+ font-weight: 700;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.button{
+	float: right;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}

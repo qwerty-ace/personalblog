@@ -1,0 +1,9 @@
+<div class='create-article'>
+<p>Create Post</p>
+<form method='Post' action="{% url 'post_create'%}" enctype="multipart/form-data">
+	{%csrf_token%}
+	{{form}}
+
+	<input type='submit' value='Create'>
+</form>
+</div>

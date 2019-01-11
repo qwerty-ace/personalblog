@@ -1,0 +1,10 @@
+ body{
+	background-image: url("back1.jpg");
+	margin:0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.toolbar{
+	font-size: 12px;s
+	font-family:'Lobster';
+}

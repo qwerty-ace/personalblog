@@ -1,0 +1,45 @@
+{% load staticfiles %}
+<html>
+<head>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="staticstylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+    <link href="//fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<!-- <link href="//fonts.googleapis.com/css?family=Thasadith&subset=latin,latin-ext" rel="stylesheet" type="text/css"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"> -->
+	<!-- <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+	 --><link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	
+</head>
+
+<!-- {%block content%} -->
+<body>
+<form class="button">
+	<button class="btn">
+		<a href="/" >All posts </a>
+	</button>
+</form>
+<div id="date">{% now "d.m.y" %} </div>
+<div class="page-header">
+	Life Long
+	 Journey
+</div>
+<div class="post-block">
+	<p> Last Posts </p>
+
+
+	{% for post in posts%}
+
+
+<div>
+	<!-- {{post.author}} -->
+	{{post.title}}
+	<!-- {{post.text}}
+ -->		</div>
+	{% endfor %}
+
+	</div>
+<!-- {%endblock%} -->
+</body>
+</html>
